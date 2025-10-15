@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class GameManager : MonoBehaviour
 {
@@ -29,5 +30,10 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void SaveGame()
+    {
+
     }
 }
